@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест №1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-content"> <div class="quiz-container">
+            <h1 id="question-number">Вопрос 1</h1>
+            <img id="question-image" src="" alt="Вопрос викторины">
+            <div class="options-container">
+                <button class="option-btn" data-option="A">A</button>
+                <button class="option-btn" data-option="B">B</button>
+                <button class="option-btn" data-option="C">C</button>
+                <button class="option-btn" data-option="D">D</button>
+            </div>
+            <div id="feedback-message" class="hidden"></div>
+            <button id="action-btn" class="hidden"></button>
+            <div id="explanation" class="hidden"></div>
+        </div>
+
+        <div id="result-container" class="hidden">
+            <h2>Ваш результат:</h2>
+            <p>Вы ответили правильно на <span id="correct-count">0</span> из <span id="total-questions">30</span> вопросов.</p>
+            <button id="restart-btn">Начать заново</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 Eldar. Все права защищены.</p>
+        <div class="social-icons">
+            <a href="https://github.com/eldar-05" target="_blank" aria-label="fa-github">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/eldar.xc/" target="_blank" aria-label="fa-instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+  </footer>
+    <script src="script.js"></script>
+</body>
+</html>
